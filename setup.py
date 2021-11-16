@@ -24,7 +24,7 @@ setup(
     include_package_data=True,
     packages=find_packages(),
     keywords=['periodic_table'],
-    entry_points={"console_scripts": ["periodc_table_tui=periodic_table_tui.__main__:main"]},
+    entry_points={"console_scripts": ["periodic_table_tui=periodic_table_tui.__main__:main"]},
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
